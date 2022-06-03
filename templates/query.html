@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="styles.css">
+<head>
+<title>Alkion koulutusvalintatesti</title>
+</head>
+<body>
+
+
+<div class="centered">
+	<img src="pics/logopieni.png" height=200>
+	<h3>[onshow.show_question_number]/[onshow.max_questions]:</h3>
+	<p class="wrapped">[onshow.question_text]</p>
+	
+	<form id="form" action="index.php" method="POST">
+		<button name="yes_button" class="alkio_button" type="submit" form="form" value="yes">Kyllä</button>
+		<button name="no_button" class="alkio_button" type="submit" form="form" value="no">Ei</button>
+	</form>
+</div>
+</body>
+</html> 
