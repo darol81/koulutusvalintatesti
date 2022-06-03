@@ -1,0 +1,2 @@
+# opintovalintatesti
+Opintovalintatesti Alkio-opistolle
